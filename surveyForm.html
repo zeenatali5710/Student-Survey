@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="C:\Users\zeena\source\repos\StudentSurveyForm\StudentSurveyForm\stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="C:\Users\zeena\source\repos\StudentSurveyForm\StudentSurveyForm\javaScript.js">
+    </script>
+</head>
+<body>
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"> </i>
+            </a>
+            <a href="C:\Users\zeena\source\repos\StudentSurveyForm\StudentSurveyForm\home.html" class="w3-bar-item w3-button"> CS Department Information</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"> </i>
+                <img src="umbcLogo.png" alt="umbc logo" width="200" height="200" />
+            </a>
+        </div>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="C:\Users\zeena\source\repos\StudentSurveyForm\StudentSurveyForm\home.html" class="w3-bar-item w3-button"> CS Department Information</a>
+            <a href="#" class="w3-bar-item w3-button"> SEARCH</a>
+        </div>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h1 class="w3-center"> CS Department Survey </h1>
+        <p class="w3-center"> <em></em></p>
+
+        <div class="w3-row w3-padding-32 w3-section">
+
+            <div class="w3-col m8 w3-panel">
+                <!--<div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"> </i> Chicago, US<br />
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"> </i> Phone: +00 151515<br />
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"> </i> Email: mail@mail.com<br />
+                </div>-->
+                <p> Swing by for a cup of <i class="fa fa-coffee"> </i>, or leave me a note:</p>
+                <form action="/action_page.php" target="_blank" autocomplete="on">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half ">
+                            <input id="name2" class="w3-input w3-border required " autocomplete="on" type="text" placeholder="Name" required=required name="Name" autofocus=autofocus autofocus=autofocus autofocus=autofocus autofocus=autofocus autofocus=autofocus autofocus=autofocus autofocus=autofocus autofocus=autofocus />
+                        </div>
+                        <div class="w3-half ">
+                            <input class="w3-input w3-border" type="text" placeholder="Address" required=required name="Address" />
+                        </div>
+                        <div class="w3-half ">
+                            <input class="w3-input w3-border " type="text" placeholder="City" required=required name="City" />
+                        </div>
+                        <div class="w3-half ">
+                            <input class="w3-input w3-border " type="text" placeholder="State" required=required name="State" />
+                        </div>
+                        <div class="w3-half ">
+                            <input class="w3-input w3-border required" type="number" placeholder="Zip" required=required name="Zip" />
+                        </div>
+                        <div class="w3-half ">
+                            <input class="w3-input w3-border required" type="email" placeholder="Email" required=required name="Email" />
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="url" placeholder="Url" required=required name="Url" />
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border required" type="tel" placeholder="Phone" required=required name="Phone" />
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border required" type="date" placeholder="Date" required=required name="Date" />
+                        </div>
+                    </div>
+                    <div>
+                        <label> What do you like the most about campus? </label><br />
+                        <div class="w3-half">
+                            <input type="checkbox" id="students" name="students" value="students" />
+                            <label for="students"> students</label>
+                        </div>
+                        <div class="w3-half">
+                            <input type="checkbox" id="location" name="location" value="location" />
+                            <label for="location"> location</label><br />
+                        </div>
+                        <div class="w3-half">
+                            <input type="checkbox" id="campus" name="campus" value="campus" />
+                            <label for="campus"> campus</label>
+                        </div>
+                        <div class="w3-half">
+                            <input type="checkbox" id="atmosphere" name="atmosphere" value="atmosphere" />
+                            <label for="atmosphere"> atmosphere</label>
+                        </div>
+                        <div class="w3-half">
+                            <input type="checkbox" id="dormRooms" name="dormRooms" value="dormRooms" />
+                            <label for="dormRooms"> Dorm rooms</label><br />
+                        </div>
+                        <div class="w3-half">
+                            <input type="checkbox" id="sports" name="sports" value="sports" />
+                            <label for="sports"> sports</label>
+                        </div><br />
+                    </div>
+                    <div>
+                        <label> How did you come to know about the university? </label><br />
+                        <div class="w3-half">
+                            <input type="radio" id="friends" name="interest" value="friends" />
+                            <label for="friends"> friends</label>
+                        </div>
+                        <div class="w3-half">
+                            <input type="radio" id="tv" name="interest" value="tv" />
+                            <label for="tv"> television</label><br />
+                        </div>
+                        <div class="w3-half">
+                            <input type="radio" id="Internet" name="interest" value="Internet" />
+                            <label for="Internet"> Internet</label>
+                        </div>
+                        <div class="w3-half">
+                            <input type="radio" id="other" name="interest" value="other" />
+                            <label for="other"> other</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="likelihood1"> Do you recommend UMBC to others? </label><br />
+                        <input list="likelihood" name="likelihood" id="likelihood1" />
+                        <datalist id="likelihood">
+                            <option value="Very Likely">
+                            </option>
+                            <option value="Likely">
+                            </option>
+                            <option value="Unlikely">
+                            </option>
+                        </datalist>
+                    </div><br />
+                    <div>
+                        <input class="w3-input w3-border" type="text" placeholder="Additional Comments" name="Comments" />
+                        <button class="w3-button w3-black w3-right w3-section" type="submit">
+                            <i class="fa fa-paper-plane"> </i> SUBMIT
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <p class="w3-medium">Created by : Zeenat Ali</p>
+    </footer>
+</body>
+</html>
